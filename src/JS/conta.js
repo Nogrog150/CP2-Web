@@ -111,8 +111,4 @@ function gerarProximos(nums) {
     return [];
 }
 
-// Exemplo de uso após detectar o padrão:
-// const proximos = gerarProximos([2, 4, 6]); // PA
-// const proximos = gerarProximos([2, 4, 8]); // PG
-// const proximos = gerarProximos([1, 1, 2]); // Fibonacci-like
 

@@ -54,10 +54,3 @@ const resetTimer = () => {
 body.addEventListener('click', resetTimer);
 body.addEventListener('input', resetTimer);
 body.addEventListener('mouseover', resetTimer);
-
-/*
-O que foi feito:
-- Ao carregar a página, o código verifica se existe um valor salvo no sessionStorage e, se existir, recupera os minutos e segundos.
-- A cada atualização do display (função updatingDisplay), o tempo atual é salvo no sessionStorage.
-- Assim, se o usuário recarregar a página, o contador continua de onde parou na mesma sessão.
-*/
