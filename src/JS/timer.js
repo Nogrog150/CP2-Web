@@ -19,7 +19,7 @@ function updatingDisplay() {
   displayMinutes.innerHTML = String(minutes).padStart(2, "0");
   displaySeconds.innerHTML = String(seconds).padStart(2, "0");
   // Salva o tempo atual e o acumulado no sessionStorage a cada atualização
-  sessionStorage.setItem('timer', JSON.stringify({ savedSeconds: seconds, totalSeconds }));
+  sessionStorage.setItem('timer', JSON.stringify({ savedMinutes: minutes, savedSeconds: seconds, totalSeconds }));
 }
 
 function startTimer() {
